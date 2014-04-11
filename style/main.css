@@ -9,7 +9,7 @@ html, body {
 
 body {
   margin: 80px 0; }
-
+  
 .heading:after {
   content: "";
   display: block;
@@ -311,72 +311,94 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 0px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: #eee4da url('../tile-sets/glyphs/2.svg') no-repeat;    /* Aries */
+    background-size: 90%;
+    background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: #ede0c8 url('../tile-sets/glyphs/4.svg') no-repeat;    /* Taurus */
+    background-size: 90%;
+    background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    color: #f9f6f2; 
+    background: #f2b179 url('../tile-sets/glyphs/8.svg') no-repeat;    /* Gemini */
+    background-size: 90%;
+    background-position: center center; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: #f59563 url('../tile-sets/glyphs/16.svg') no-repeat;    /* Cancer */
+    background-size: 90%;
+    background-position: center center;}
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #f67c5f url('../tile-sets/glyphs/32.svg') no-repeat;    /* Leo */
+    background-size: 70%;
+    background-position: center center;}
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f65e3b url('../tile-sets/glyphs/64.svg') no-repeat;    /* Virgo */
+    background-size: 70%;
+    background-position: center center;}
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72;
+    background: #edcf72 url('../tile-sets/glyphs/128.svg') no-repeat;    /* Libra */
+    background-size: 90%;
+    background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background: #edcc61 url('../tile-sets/glyphs/256.svg') no-repeat;    /* Scorpio */
+    background-size: 90%;
+    background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: #edc850;
+    background: #edc850 url('../tile-sets/glyphs/512.svg') no-repeat;    /* Sagittarius */
+    background-size: 90%;
+    background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #edc53f;
+    background: #edc53f url('../tile-sets/glyphs/1024.svg') no-repeat;    /* Capricorn */
+    background-size: 90%;
+    background-position: center center;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
+    background: #edc22e url('../tile-sets/glyphs/2048.svg') no-repeat;    /* Aquarius */
+    background-size: 90%;
+    background-position: center center;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 30px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 0px; } }
 
 @-webkit-keyframes appear {
   0% {
