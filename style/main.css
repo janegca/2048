@@ -313,38 +313,38 @@ hr {
     z-index: 10;
     font-size: 0px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da url('../tile-sets/glyphs/2.svg') no-repeat;    /* Aries */
+    background: #eee4da url('../tile-sets/glyphs/Aries.svg') no-repeat; 
     background-size: 90%;
     background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8 url('../tile-sets/glyphs/4.svg') no-repeat;    /* Taurus */
+    background: #ede0c8 url('../tile-sets/glyphs/Taurus.svg') no-repeat;
     background-size: 90%;
     background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2; 
-    background: #f2b179 url('../tile-sets/glyphs/8.svg') no-repeat;    /* Gemini */
+    background: #f2b179 url('../tile-sets/glyphs/Gemini.svg') no-repeat; 
     background-size: 90%;
     background-position: center center; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563 url('../tile-sets/glyphs/16.svg') no-repeat;    /* Cancer */
+    background: #f59563 url('../tile-sets/glyphs/Cancer.svg') no-repeat;  
     background-size: 90%;
     background-position: center center;}
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f url('../tile-sets/glyphs/32.svg') no-repeat;    /* Leo */
+    background: #f67c5f url('../tile-sets/glyphs/Leo.svg') no-repeat;  
     background-size: 70%;
     background-position: center center;}
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b url('../tile-sets/glyphs/64.svg') no-repeat;    /* Virgo */
+    background: #f65e3b url('../tile-sets/glyphs/Virgo.svg') no-repeat;   
     background-size: 70%;
     background-position: center center;}
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72 url('../tile-sets/glyphs/128.svg') no-repeat;    /* Libra */
+    background: #edcf72 url('../tile-sets/glyphs/Libra.svg') no-repeat;    
     background-size: 90%;
     background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -354,7 +354,7 @@ hr {
         font-size: 0px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61 url('../tile-sets/glyphs/256.svg') no-repeat;    /* Scorpio */
+    background: #edcc61 url('../tile-sets/glyphs/Scorpio.svg') no-repeat;   
     background-size: 90%;
     background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -364,7 +364,7 @@ hr {
         font-size: 0px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: #edc850 url('../tile-sets/glyphs/512.svg') no-repeat;    /* Sagittarius */
+    background: #edc850 url('../tile-sets/glyphs/Sagittarius.svg') no-repeat; 
     background-size: 90%;
     background-position: center center;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -374,7 +374,7 @@ hr {
         font-size: 0px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #edc53f url('../tile-sets/glyphs/1024.svg') no-repeat;    /* Capricorn */
+    background: #edc53f url('../tile-sets/glyphs/Capricorn.svg') no-repeat;
     background-size: 90%;
     background-position: center center;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -384,7 +384,7 @@ hr {
         font-size: 0px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e url('../tile-sets/glyphs/2048.svg') no-repeat;    /* Aquarius */
+    background: #edc22e url('../tile-sets/glyphs/Aquarius.svg') no-repeat;
     background-size: 90%;
     background-position: center center;    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
